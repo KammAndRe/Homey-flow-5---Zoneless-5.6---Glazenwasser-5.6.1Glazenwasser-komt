@@ -13,6 +13,18 @@ Een verbeterde versie van de F1-notificatie-flow, herschreven als HomeyScript.
 - [`f1-notificatie.js`](./f1-notificatie.js) — het HomeyScript (invullen: `presenceDeviceId`).
 - [`find-presence-device.js`](./find-presence-device.js) — hulpscript om de presence device-UUID op te zoeken.
 
+- [`diagnose-device.js`](./diagnose-device.js) — hulpscript om de capabilities van een apparaat te tonen.
+
+## Privacy
+
+Deze repo is **publiek**. De scripts bevatten daarom **geen** persoonlijke gegevens:
+
+- `presenceDeviceId` en `DEVICE_ID` staan op de placeholder `'VERVANG_DOOR_JOUW_DEVICE_UUID'`.
+- `userName` is leeg (`''`); het script pakt dan automatisch de eerste Homey-gebruiker.
+
+**Vul deze waarden alleen lokaal in** (in je eigen HomeyScript-editor) en **commit ze niet** terug
+naar deze repo. Je Homey device-UUID en gebruikersnaam zijn alleen voor jouw eigen Homey bedoeld.
+
 ## Hoe het werkt
 
 ```
